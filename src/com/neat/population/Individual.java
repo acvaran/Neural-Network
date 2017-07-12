@@ -19,13 +19,22 @@ public class Individual {
 		for (int i = 0; i < genePool.getTotalNumberOfGenes(); i++)
 			dna.addGene(genePool.specificGene(i));
 	}
+
+	public void nodeMutation() {
+
+	}
+
+	public void linkMutation() {
+
+	}
+
 	
 	// Getters
-	public GenePool getGenePool(){
+	public GenePool getGenePool() {
 		return genePool;
 	}
-	
-	public DNA getDNA(){
+
+	public DNA getDNA() {
 		return dna;
 	}
 
