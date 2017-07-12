@@ -30,8 +30,18 @@ public class GenePool {
 		genePool.add(gene);
 	}
 
+	// Returns a specific gene from the gene pool.
+	public Gene specificGene(int index) {
+		return genePool.get(index);
+	}
+
 	// Getters
 	public ArrayList<Gene> getGenePool() {
 		return genePool;
 	}
+
+	public int getTotalNumberOfGenes() {
+		return genePool.size();
+	}
+
 }
